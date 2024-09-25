@@ -1,0 +1,30 @@
+h1{
+    background-color:black;
+    color:white;
+}
+
+/* class selector */
+.article{
+    color:blue;
+    font-size:30px;
+}
+
+/* id selector */
+#mymenu{
+    background-color:yellow;
+}
+
+/* parent child */
+.article h1{
+    color:red;
+}
+
+/* group selector */
+.article2 h1 , .article2 p{
+    background-color:cyan;
+}
+
+/* *{
+    margin:0;
+    padding:0;
+} */
